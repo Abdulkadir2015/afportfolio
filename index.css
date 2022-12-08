@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Desktop - 1*/
+body{
+    width: 1440px;
+    height: 1024px;
+    background-color: #2d2e36;
+}
+

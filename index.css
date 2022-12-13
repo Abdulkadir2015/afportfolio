@@ -1,15 +1,76 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 
-/* Desktop - 1*/
+/* ********************************
+*   Mobile first design           *
+**********************************/
+
 body{
-    width: 1440px;
-    height: 1024px;
-    background-color: #2d2e36;
-    color: #FFFFFF;
+    background: #2d2e36;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Poppins';
 }
 
+img{
+    width: 100%;
+    border-radius: .2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    background: #383A45;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: .4rem;
+    max-width: 270px;
+}
+
+p.title{
+    color: #ffffff;
+    font-size: 1.2rem;
+    line-height: 119.7%;
+}
+
+p.description {
+    color: #8D91A6;
+    font-size: .8rem;
+}
+
+.link{
+    width: .8rem;
+}
+
+/*******************************************
+*   Tablet with 550px min-width screen     *
+*******************************************/
+
+@media only screen and (min-width: 550px) {
+    .container{
+        max-width: 500px;
+    }
+
+    .photo{
+        width: 9rem;
+        margin-right: 1rem;
+    }
+
+    a {
+        display: flex;
+    }
+}
+
+/*******************************************
+*   Desktop and large Tablets              *
+*******************************************/
+
+@media only screen and (min-width: 950px) {
+    html{
+        font-size: 20px;
+    }
+
+}
